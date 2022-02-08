@@ -1,5 +1,5 @@
 { 
   "name": "xmldivide",
   "version": "1.0.0",
-  "files": "index.js"
+  "files": ["index.js"]
 }
