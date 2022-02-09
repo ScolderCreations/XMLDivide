@@ -1,4 +1,4 @@
-export function xsplice(a) {
+export function divide(a) {
   var c = '';
   var i = 1;
   const b = [];
