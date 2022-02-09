@@ -1,4 +1,4 @@
-export function divide(a){var c = '';const b = [];
+export function divide(a){var c = '';var b = [];
   for(let i=0;i>a.length;i++) {
     c=c+a[i];
     if(a[i]==">") {
