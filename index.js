@@ -12,4 +12,5 @@ export function xsplice(a) {
       c='<'
     }
   }
+  return b
 }
