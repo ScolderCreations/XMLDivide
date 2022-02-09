@@ -9,6 +9,7 @@ on:
     - latest
   pull_request:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   test:
