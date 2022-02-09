@@ -1,13 +1,14 @@
-export function divide(a){var c = '';var b = [];
-  for(let i=0;i>a.length;i++) {
-    c=c+a[i];
-    if(a[i]==">") {
-      b.push(c);
-      c=''
-    } else if ((a[i]=="<")&&(/$>\w*/.test(b[b.length]))){ 
-      b.push(c - 1);
-      c='<'
+export function divide(a){
+  var b = [];
+  var c = a.split(">")
+  var d = ''
+  b.forEach((h) => {
+    if /(^/w<.)||(^<.)/.test(h) {
+      d = h+'>'
+    } else {
+      d = String(h)
     }
+    b.push(d)
   }
   return b
 }
