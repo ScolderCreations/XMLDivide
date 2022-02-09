@@ -4,7 +4,7 @@ export function divide(a){var c = '';const b = [];
     if(a[i]==">") {
       b.push(c);
       c=''
-    } else if (((a[i]=="<")&&(b[b.length].includes(">"))&&(c[1]!="<"))){
+    } else if (((a[i]=="<")&&(/$>/.test(b[b.length]))&&(c[1]!="<"))){ 
       b.push(c - 1);
       c='<'
     }
