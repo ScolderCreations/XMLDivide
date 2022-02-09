@@ -32,6 +32,10 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
+      - run: npm login
+      - run: ScolderCreations
+      - run: ${{secrets.NPM_TOKEN}}
+      - run: ozor1xx@gmail.com
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
