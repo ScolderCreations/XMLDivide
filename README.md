@@ -1,6 +1,6 @@
 # XMLDivide
 
-[![Node.js Package](https://github.com/ScolderCreations/XMLDivide/actions/workflows/npm-publish.yml/badge.svg?branch=main)](https://github.com/ScolderCreations/XMLDivide/actions/workflows/npm-publish.yml)
+[![Publishing](https://github.com/ScolderCreations/XMLDivide/actions/workflows/npm-publish.yml/badge.svg?branch=main)](https://github.com/ScolderCreations/XMLDivide/actions/workflows/npm-publish.yml) [![Tests](https://github.com/ScolderCreations/XMLDivide/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/ScolderCreations/XMLDivide/actions/workflows/test.yml)
 
 ## Usage
 
