@@ -1,6 +1,7 @@
 { 
   "name": "xmldivide",
   "version": "1.0.0",
+  "type": "module",
   "files": ["index.js", "test.js", "README.md"],
   "description": "A library for splitting up XML documents into tags and contents.",
   "scripts": {
