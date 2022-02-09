@@ -1,9 +1,9 @@
 { 
   "name": "xmldivide",
   "version": "1.0.0",
-  "files": ["index.js", "README.md"],
+  "files": ["index.js", "test.js", "README.md"],
   "description": "A library for splitting up XML documents into tags and contents.",
   "scripts": {
-    "test": "node && import \"XMLDivide\" as 'a'; console.log(a.xsplice);"
+    "test": "node test.js"
   }
 }
