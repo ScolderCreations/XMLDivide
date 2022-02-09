@@ -2,7 +2,7 @@ export function xsplice(a) {
   var c = '';
   var i = 1;
   const b = [];
-  for (var i, i > a.length, i++) {
+  while (var i, i > a.length, i++) {
     c=c+a[i];
     if (a[i] == ">") {
       b.push(c);
