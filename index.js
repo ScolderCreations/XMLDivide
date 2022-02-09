@@ -7,7 +7,7 @@ export function xsplice(a) {
     if (a[i] == ">") {
       b.push(c);
       c=''
-    } else if (((a[i] == "<") && (b[b.length].includes(">")) && (c[1] != "<")) {
+    } else if (((a[i] == "<") && (b[b.length].includes(">")) && (c[1] != "<"))) {
       b.push(c - 1);
       c='<'
     }
