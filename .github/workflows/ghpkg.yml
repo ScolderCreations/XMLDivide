@@ -32,7 +32,7 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
-      - run: npm login
+      - run: npm adduser
       - run: ScolderCreations
       - run: ${{secrets.NPM_TOKEN}}
       - run: ozor1xx@gmail.com
