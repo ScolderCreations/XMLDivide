@@ -9,6 +9,6 @@ export function divide(a){
       d = String(h)
     }
     b.push(d)
-  }
+  });
   return b
 }
