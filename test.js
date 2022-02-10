@@ -1,2 +1,2 @@
-import * as a from "./index.js"
-console.log(a.divide("<p>test</p><b>test </b>"))
+import divide from "./index.js"
+console.log(divide("<p>test</p><b>test </b>"))
