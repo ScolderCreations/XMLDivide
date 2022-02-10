@@ -3,7 +3,7 @@ export function divide(a){
   var c = a.split(">")
   var d = ''
   b.forEach((h) => {
-    if /(^/w<.)||(^<.)/.test(h) {
+    if (/(^/w<.)||(^<.)/.test(h)) {
       d = h+'>'
     } else {
       d = String(h)
