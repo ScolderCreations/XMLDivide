@@ -2,7 +2,7 @@ export function divide(a){
   var b = a.split(">");
   var d = ''
   b.forEach((h) => {
-    if ((/^\s*<.*/.test(h)) && (!/$>\s*/.test(h))) {
+    if (h.startsWith("<")) {
       d = h+'>'
     } else {
       d = String(h)
